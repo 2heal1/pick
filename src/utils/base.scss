@@ -1,0 +1,128 @@
+body {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.txtNormal {
+  color: #3a3a3a;
+}
+
+.txtContent {
+  color: #555555;
+}
+
+.txtGray {
+  color: #888888;
+}
+.txtDarkOrange{
+  color: 	#FF8C00;
+}
+.txtDimGray{
+  color: dimgray;
+}
+.viewBetween{
+  justify-content:space-between;
+}
+.txtCenter {
+  text-align: center;
+}
+.viewTop{
+  margin-top:30px;
+}
+
+.txtLines {
+  display:-webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.viewCenter{
+  align-items:center;
+}
+.viewEnd{
+  align-items:flex-end;
+}
+.marginBottom{
+  margin-bottom: 40px
+}
+.marginBottomTwo{
+  margin-bottom: 20px
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.relative {
+  position: relative;
+}
+.changeLine{
+  flex-wrap:wrap;
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.linearHor {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+
+.linearVer {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+.flexGrow {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+}
+
+.flexShrink {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1PX;
+  background-color: #eeeeee;
+}
+
+.flexHorCenter {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.flexVerCenter {
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.overflowHide {
+  overflow: hidden;
+}
+
+.overflowAuto {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.showView{
+  display: block;
+}
+.hiddenView{
+  display: none;
+}
+.btnSize{
+  width: 300px;
+}

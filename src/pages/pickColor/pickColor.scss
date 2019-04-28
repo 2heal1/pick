@@ -1,0 +1,13 @@
+@import "../../utils/base";
+
+.pickColorItem{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  .at-button--secondary {
+    color: white;
+    border:1PX solid white;
+    background:linear-gradient(to right, #95B8F8, #5C82EE);
+    border-radius:20px;
+  }
+}
